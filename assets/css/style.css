@@ -1,3 +1,33 @@
 body {
     background: #efefef;
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #4ab7f6;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#logo {
+    float: left;
+    padding-left: 150px;
+}
+
+#navlink {
+    float: right;
+    padding-right: 100px;
+}
+
+footer {
+    background-color: #ee8f32;
+    color: #ffffff;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    padding-left: 100px;
 }
