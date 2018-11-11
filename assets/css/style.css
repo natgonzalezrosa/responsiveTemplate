@@ -8,18 +8,25 @@ body {
     overflow: hidden;
     background-color: #4ab7f6;
     color: #ffffff;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin: 0 auto;
+    box-shadow: 0px 1px 10px #a4a4a4;
+    padding: 0px;
 }
 
 #logo {
     float: left;
     padding-left: 150px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    letter-spacing: 1.5px;
 }
 
 #navlink {
     float: right;
     padding-right: 100px;
+    padding-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.5px;
 }
 
 footer {
@@ -30,4 +37,29 @@ footer {
     bottom: 0px;
     width: 100%;
     padding-left: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#starterSection {
+    text-align: center;
+    font-family: 'Domine', serif;
+    margin-top: 75px;
+}
+
+#mainHeading {
+    font-size: 40px;
+    color: #ee8f32;
+    letter-spacing: 1.5px;
+}
+
+#startedButton {
+    padding: 10px 30px;
+    background: #ee8f32;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    -moz-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3;
+    -webkit-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3;
+    box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3;
+    border-radius: 5px 5px 5px 5px;
 }
