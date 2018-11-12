@@ -1,5 +1,5 @@
 body {
-    background: #efefef;
+    background: #f4f4f4;
     margin: 0px;
     padding: 0px;
 }
@@ -44,12 +44,14 @@ footer {
     text-align: center;
     font-family: 'Domine', serif;
     margin-top: 75px;
+    color: #242424;
 }
 
 #mainHeading {
     font-size: 40px;
     color: #ee8f32;
     letter-spacing: 1.5px;
+    text-shadow: 1px 1px 1px #5c5c5c;
 }
 
 #startedButton {
@@ -62,12 +64,44 @@ footer {
     -webkit-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3;
     box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3;
     border-radius: 5px 5px 5px 5px;
-    transition-duration: 700ms;
+    transition-duration: 1000ms;
     transition-property: background, transform;
-    transition-timing-function: ease-in;
+    transition-timing-function: cubic-bezier(0, 0, 0.21, 0.98);
 }
 
 #startedButton:hover {
     background: #4ab7f6;
     transform: rotate(360deg);
 }
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 60px;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+}
+
+.features div{
+    /* border: 1px #ccc solid; */
+    padding: 10px;
+    color: #2e2e2e;
+}
+
+.container-box {
+    flex-basis: 25%;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Domine', serif;
+}
+
+.fas {
+    font-size: 32px;
+    color: #4ab7f6;
+}
+
+/* @media(min-width:768px) {
+
+} */
