@@ -62,4 +62,12 @@ footer {
     -webkit-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3;
     box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3;
     border-radius: 5px 5px 5px 5px;
+    transition-duration: 700ms;
+    transition-property: background, transform;
+    transition-timing-function: ease-in;
+}
+
+#startedButton:hover {
+    background: #4ab7f6;
+    transform: rotate(360deg);
 }
