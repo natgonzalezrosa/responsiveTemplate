@@ -7,3 +7,4 @@ This is a responsive template made purely from HTML and CSS (no Bootstrap or Jav
 
 
 ## Screencap
+![Screenshot](/assets/images/screenshot.png)
