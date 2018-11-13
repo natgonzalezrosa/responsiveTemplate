@@ -100,6 +100,9 @@ h2 {
 .fas {
     font-size: 32px;
     color: #4ab7f6;
+    text-align: center;
+    margin: 0 auto;
+    display: inline;
 }
 
 /* @media(min-width:768px) {
