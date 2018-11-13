@@ -41,7 +41,6 @@ footer {
     left: 0px;
     bottom: 0px;
     width: 100%;
-    padding-left: 100px;
     margin-top: 0px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -139,7 +138,7 @@ h2 {
 
 /* Company Bio flex box */
 .container2-box1 {
-    flex-basis: 55%;
+    flex-basis: 50%;
 }
 
 /* Settings and Connect flex boxes */
@@ -147,6 +146,30 @@ h2 {
     flex-basis: 20%;
 }
 
-/* @media(min-width:768px) {
+.footerText {
+    text-align: center;
+}
 
-} */
+@media(max-width:575px) {
+    .container-box {
+        flex-basis: 50%;
+    }
+
+    .features {
+        margin: 20px 30px;
+        justify-content: center;
+    }
+
+    .container2-box1 {
+        flex-basis: 80%;
+    }
+
+    .container2-box2, .container2-box3 {
+        flex-basis: 50%;
+        text-align: center;
+    }
+    
+
+
+
+}
