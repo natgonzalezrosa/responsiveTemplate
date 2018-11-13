@@ -4,14 +4,29 @@ body {
     padding: 0px;
 }
 
-#navbar {
+
+
+nav {
+    width: 100%;
+    position: sticky;
     overflow: hidden;
     background-color: #4ab7f6;
     color: #ffffff;
     margin: 0 auto;
     box-shadow: 0px 1px 10px #a4a4a4;
     padding: 0px;
+    top: 0px;
 }
+
+/* #navbar {
+    position: fixed;
+    overflow: hidden;
+    background-color: #4ab7f6;
+    color: #ffffff;
+    margin: 0 auto;
+    box-shadow: 0px 1px 10px #a4a4a4;
+    padding: 0px;
+} */
 
 #logo {
     float: left;
